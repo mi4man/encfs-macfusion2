@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = F652A24B0F49BAB6000812BA /* encfs_askpass */;
+		activeTarget = 8D5B49AC048680CD000E48DA /* EncFS */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* EncFS */,
+		);
+		codeSenseManager = F652A1ED0F49B942000812BA /* Code sense */;
+		executables = (
+			F652A24B0F49BAB6000812BA /* encfs_askpass */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					821,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					761.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					781,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 260111877;
+			PBXWorkspaceStateSaveDate = 260111877;
+		};
+		perUserProjectItems = {
+			F62068420F80376F001215B9 /* PBXTextBookmark */ = F62068420F80376F001215B9 /* PBXTextBookmark */;
+			F62068440F80376F001215B9 /* PBXTextBookmark */ = F62068440F80376F001215B9 /* PBXTextBookmark */;
+			F63605D30F5041F300C547A4 /* PBXTextBookmark */ = F63605D30F5041F300C547A4 /* PBXTextBookmark */;
+			F640F2010F4C1364004A61D1 /* PBXTextBookmark */ = F640F2010F4C1364004A61D1 /* PBXTextBookmark */;
+			F640F3990F4E45BF004A61D1 /* PBXTextBookmark */ = F640F3990F4E45BF004A61D1 /* PBXTextBookmark */;
+			F640F3B30F4E45BF004A61D1 /* PBXTextBookmark */ = F640F3B30F4E45BF004A61D1 /* PBXTextBookmark */;
+			F64CF7940F4F6AD500DF7CC6 /* PBXBookmark */ = F64CF7940F4F6AD500DF7CC6 /* PBXBookmark */;
+			F64CF7950F4F6AD500DF7CC6 /* PlistBookmark */ = F64CF7950F4F6AD500DF7CC6 /* PlistBookmark */;
+			F64CF7980F4F6AD500DF7CC6 /* PBXTextBookmark */ = F64CF7980F4F6AD500DF7CC6 /* PBXTextBookmark */;
+			F64CF79B0F4F6AD500DF7CC6 /* PlistBookmark */ = F64CF79B0F4F6AD500DF7CC6 /* PlistBookmark */;
+			F64CF79C0F4F6AD500DF7CC6 /* PBXBookmark */ = F64CF79C0F4F6AD500DF7CC6 /* PBXBookmark */;
+			F68526E10F8108D800AF1A4B /* PBXTextBookmark */ = F68526E10F8108D800AF1A4B /* PBXTextBookmark */;
+			F6BA8C850F4B604B0052F0EA /* PBXTextBookmark */ = F6BA8C850F4B604B0052F0EA /* PBXTextBookmark */;
+			F6BA8C8A0F4B604B0052F0EA /* PBXTextBookmark */ = F6BA8C8A0F4B604B0052F0EA /* PBXTextBookmark */;
+			F6BA8C8B0F4B604B0052F0EA /* PBXTextBookmark */ = F6BA8C8B0F4B604B0052F0EA /* PBXTextBookmark */;
+			F6BA8CE90F4B604B0052F0EA /* PBXTextBookmark */ = F6BA8CE90F4B604B0052F0EA /* PBXTextBookmark */;
+			F6BA8CEB0F4B604B0052F0EA /* PBXTextBookmark */ = F6BA8CEB0F4B604B0052F0EA /* PBXTextBookmark */;
+			F6BA8CF10F4B604B0052F0EA /* PBXTextBookmark */ = F6BA8CF10F4B604B0052F0EA /* PBXTextBookmark */;
+			F6BA8CF90F4B604B0052F0EA /* PBXTextBookmark */ = F6BA8CF90F4B604B0052F0EA /* PBXTextBookmark */;
+			F6BA8CFC0F4B604B0052F0EA /* PBXTextBookmark */ = F6BA8CFC0F4B604B0052F0EA /* PBXTextBookmark */;
+			F6BA8CFE0F4B604B0052F0EA /* PBXTextBookmark */ = F6BA8CFE0F4B604B0052F0EA /* PBXTextBookmark */;
+			F6F4D2560F4EC16C00CD6AEE /* PBXTextBookmark */ = F6F4D2560F4EC16C00CD6AEE /* PBXTextBookmark */;
+			F6F4D2570F4EC16C00CD6AEE /* PBXTextBookmark */ = F6F4D2570F4EC16C00CD6AEE /* PBXTextBookmark */;
+			F6F4D2590F4EC16C00CD6AEE /* PBXTextBookmark */ = F6F4D2590F4EC16C00CD6AEE /* PBXTextBookmark */;
+			F6F4D2670F4EC16C00CD6AEE /* PBXTextBookmark */ = F6F4D2670F4EC16C00CD6AEE /* PBXTextBookmark */;
+		};
+		sourceControlManager = F652A1EC0F49B942000812BA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32DBCF630370AF2F00C91783 /* EncFS_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {739, 434}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 142}";
+		};
+	};
+	8D5B49AC048680CD000E48DA /* EncFS */ = {
+		activeExec = 0;
+	};
+	F62068420F80376F001215B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F652A1EE0F49B968000812BA /* ENCFSDelegate.m */;
+		name = "ENCFSDelegate.m: 90";
+		rLen = 0;
+		rLoc = 2299;
+		rType = 0;
+		vrLen = 620;
+		vrLoc = 1710;
+	};
+	F62068440F80376F001215B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6BA8C500F4B58680052F0EA /* EncFSCreationController.m */;
+		name = "EncFSCreationController.m: 61";
+		rLen = 19;
+		rLoc = 1222;
+		rType = 0;
+		vrLen = 1346;
+		vrLoc = 1917;
+	};
+	F63605D30F5041F300C547A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6BA8BB50F4B47AA0052F0EA /* ENCFSServerFS.h */;
+		name = "ENCFSServerFS.h: 13";
+		rLen = 0;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 249;
+		vrLoc = 0;
+	};
+	F640F2010F4C1364004A61D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6BA8BB60F4B47AA0052F0EA /* ENCFSServerFS.m */;
+		name = "ENCFSServerFS.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 206;
+		vrLoc = 0;
+	};
+	F640F3990F4E45BF004A61D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6BA8C4F0F4B58680052F0EA /* EncFSCreationController.h */;
+		name = "EncFSCreationController.h: 19";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 577;
+		vrLoc = 0;
+	};
+	F640F3B30F4E45BF004A61D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F652A1F00F49B968000812BA /* EncfsConfigurationController.m */;
+		name = "EncfsConfigurationController.m: 47";
+		rLen = 0;
+		rLoc = 1780;
+		rType = 0;
+		vrLen = 1057;
+		vrLoc = 819;
+	};
+	F64CF7940F4F6AD500DF7CC6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F652A1F60F49B971000812BA /* encfs.png */;
+	};
+	F64CF7950F4F6AD500DF7CC6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F652A1F90F49B971000812BA /* encfs-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tobias/Developing/Macfusion2/Plugins/EncFS/trunk/encfs-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	F64CF7980F4F6AD500DF7CC6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F652A1F00F49B968000812BA /* EncfsConfigurationController.m */;
+		name = "EncfsConfigurationController.m: 15";
+		rLen = 0;
+		rLoc = 339;
+		rType = 0;
+		vrLen = 651;
+		vrLoc = 294;
+	};
+	F64CF79B0F4F6AD500DF7CC6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F652A1F90F49B971000812BA /* encfs-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tobias/Developing/Macfusion2/Plugins/EncFS/trunk/encfs-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	F64CF79C0F4F6AD500DF7CC6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F652A1F60F49B971000812BA /* encfs.png */;
+	};
+	F652A1EC0F49B942000812BA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryName = garnix;
+		};
+	};
+	F652A1ED0F49B942000812BA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F652A1EE0F49B968000812BA /* ENCFSDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {999, 4424}}";
+			sepNavSelRange = "{2299, 0}";
+			sepNavVisRange = "{1710, 620}";
+			sepNavWindowFrame = "{{84, 120}, {831, 690}}";
+		};
+	};
+	F652A1EF0F49B968000812BA /* ENCFSDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {999, 294}}";
+			sepNavSelRange = "{231, 0}";
+			sepNavVisRange = "{0, 348}";
+		};
+	};
+	F652A1F00F49B968000812BA /* EncfsConfigurationController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1206, 1316}}";
+			sepNavSelRange = "{339, 0}";
+			sepNavVisRange = "{294, 651}";
+		};
+	};
+	F652A1F10F49B968000812BA /* encfs_askpass.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {907, 966}}";
+			sepNavSelRange = "{1460, 30}";
+			sepNavVisRange = "{1039, 574}";
+		};
+	};
+	F652A1F20F49B968000812BA /* EncfsConfigurationController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {999, 455}}";
+			sepNavSelRange = "{514, 0}";
+			sepNavVisRange = "{0, 520}";
+		};
+	};
+	F652A1F90F49B971000812BA /* encfs-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{107, 99}, {831, 690}}";
+		};
+	};
+	F652A2490F49BAB6000812BA /* encfs_askpass */ = {
+		activeExec = 0;
+		executables = (
+			F652A24B0F49BAB6000812BA /* encfs_askpass */,
+		);
+	};
+	F652A24B0F49BAB6000812BA /* encfs_askpass */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = encfs_askpass;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	F68526E10F8108D800AF1A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6BA8C500F4B58680052F0EA /* EncFSCreationController.m */;
+		name = "EncFSCreationController.m: 81";
+		rLen = 109;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1345;
+		vrLoc = 1407;
+	};
+	F6BA8BB50F4B47AA0052F0EA /* ENCFSServerFS.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {999, 266}}";
+			sepNavSelRange = "{239, 0}";
+			sepNavVisRange = "{0, 249}";
+		};
+	};
+	F6BA8BB60F4B47AA0052F0EA /* ENCFSServerFS.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {907, 491}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 206}";
+		};
+	};
+	F6BA8C4F0F4B58680052F0EA /* EncFSCreationController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {907, 491}}";
+			sepNavSelRange = "{386, 0}";
+			sepNavVisRange = "{0, 577}";
+		};
+	};
+	F6BA8C500F4B58680052F0EA /* EncFSCreationController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1044, 4732}}";
+			sepNavSelRange = "{1589, 109}";
+			sepNavVisRange = "{1407, 1345}";
+		};
+	};
+	F6BA8C850F4B604B0052F0EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F652A1F10F49B968000812BA /* encfs_askpass.m */;
+		name = "encfs_askpass.m: 57";
+		rLen = 30;
+		rLoc = 1460;
+		rType = 0;
+		vrLen = 574;
+		vrLoc = 1039;
+	};
+	F6BA8C8A0F4B604B0052F0EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F652A1EE0F49B968000812BA /* ENCFSDelegate.m */;
+		name = "ENCFSDelegate.m: 17";
+		rLen = 0;
+		rLoc = 508;
+		rType = 0;
+		vrLen = 1007;
+		vrLoc = 815;
+	};
+	F6BA8C8B0F4B604B0052F0EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F652A1EF0F49B968000812BA /* ENCFSDelegate.h */;
+		name = "ENCFSDelegate.h: 10";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 313;
+		vrLoc = 0;
+	};
+	F6BA8CE90F4B604B0052F0EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6BA8BB50F4B47AA0052F0EA /* ENCFSServerFS.h */;
+		name = "ENCFSServerFS.h: 11";
+		rLen = 0;
+		rLoc = 235;
+		rType = 0;
+		vrLen = 217;
+		vrLoc = 0;
+	};
+	F6BA8CEB0F4B604B0052F0EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6BA8BB60F4B47AA0052F0EA /* ENCFSServerFS.m */;
+		name = "ENCFSServerFS.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 206;
+		vrLoc = 0;
+	};
+	F6BA8CF10F4B604B0052F0EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F652A1F10F49B968000812BA /* encfs_askpass.m */;
+		name = "encfs_askpass.m: 57";
+		rLen = 30;
+		rLoc = 1460;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 1126;
+	};
+	F6BA8CF90F4B604B0052F0EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F652A1F20F49B968000812BA /* EncfsConfigurationController.h */;
+		name = "EncfsConfigurationController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 324;
+		vrLoc = 0;
+	};
+	F6BA8CFC0F4B604B0052F0EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6BA8C4F0F4B58680052F0EA /* EncFSCreationController.h */;
+		name = "EncFSCreationController.h: 12";
+		rLen = 0;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 245;
+		vrLoc = 0;
+	};
+	F6BA8CFE0F4B604B0052F0EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6BA8C500F4B58680052F0EA /* EncFSCreationController.m */;
+		name = "EncFSCreationController.m: 13";
+		rLen = 0;
+		rLoc = 8141;
+		rType = 0;
+		vrLen = 236;
+		vrLoc = 0;
+	};
+	F6F4D20A0F4EB3C300CD6AEE /* ENCFSErrors.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {999, 246}}";
+			sepNavSelRange = "{91, 0}";
+			sepNavVisRange = "{0, 151}";
+		};
+	};
+	F6F4D2560F4EC16C00CD6AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6F4D20A0F4EB3C300CD6AEE /* ENCFSErrors.h */;
+		name = "ENCFSErrors.h: 4";
+		rLen = 0;
+		rLoc = 91;
+		rType = 0;
+		vrLen = 151;
+		vrLoc = 0;
+	};
+	F6F4D2570F4EC16C00CD6AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F652A1EF0F49B968000812BA /* ENCFSDelegate.h */;
+		name = "ENCFSDelegate.h: 12";
+		rLen = 0;
+		rLoc = 231;
+		rType = 0;
+		vrLen = 348;
+		vrLoc = 0;
+	};
+	F6F4D2590F4EC16C00CD6AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F652A1F20F49B968000812BA /* EncfsConfigurationController.h */;
+		name = "EncfsConfigurationController.h: 21";
+		rLen = 0;
+		rLoc = 514;
+		rType = 0;
+		vrLen = 520;
+		vrLoc = 0;
+	};
+	F6F4D2670F4EC16C00CD6AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6F4D20A0F4EB3C300CD6AEE /* ENCFSErrors.h */;
+		name = "ENCFSErrors.h: 7";
+		rLen = 0;
+		rLoc = 151;
+		rType = 0;
+		vrLen = 153;
+		vrLoc = 0;
+	};
+}
