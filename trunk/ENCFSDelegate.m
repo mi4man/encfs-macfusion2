@@ -17,7 +17,7 @@
 #import <Security/Security.h>
 #import <MFCore/MFClientFSUI.h>
 #import "EncfsConfigurationController.h"
-#import "ENCFSServerFS.h"
+//#import "ENCFSServerFS.h"
 
 
 #import "ENCFSErrors.h"
@@ -70,7 +70,7 @@ NSString *kENCFSRawPathKey = @"rawPath";
 		
 	[arguments addObject: [parameters objectForKey: kMFFSMountPathParameter ]];
 	
-	[arguments addObject:[NSString stringWithFormat:@"--extpass=%@", [self askpassPath]]];
+	[arguments addObject:[NSString stringWithFormat:@"--extpass=\"%@\"", [self askpassPath]]];
 	
 	[arguments addObject:@"-f"]; // run in foreground
 	
@@ -96,7 +96,7 @@ NSString *kENCFSRawPathKey = @"rawPath";
 {
 	NSMutableDictionary* env = [NSMutableDictionary dictionaryWithDictionary: 
 								[[NSProcessInfo processInfo] environment]];
-	[env setObject: mfsecTokenForFilesystemWithUUID([params objectForKey: KMFFSUUIDParameter])
+	[env setObject: mfsecTokenForFilesystemWithUUID([params objectForKey: @"uuid"])
 			forKey: @"ENCFS_TOKEN"];
 	[env setObject: [self askpassPath] forKey:@"ENCFS_ASKPASS"];
 	
@@ -225,6 +225,7 @@ NSString *kENCFSRawPathKey = @"rawPath";
 	 inDirectory:nil]; */
 
     return [NSString stringWithString:@"/usr/local/bin/encfs"];
+    //return [NSString stringWithString:@"encfs"];
 }
 
 
@@ -304,11 +305,11 @@ NSString *kENCFSRawPathKey = @"rawPath";
 #pragma mark -
 #pragma mark Subclassing
 // Subclassing
-- (Class)subclassForClass:(Class)superclass
+/*- (Class)subclassForClass:(Class)superclass
 {
 	if ([NSStringFromClass(superclass) isEqualToString: @"MFServerFS"])
 		return [ENCFSServerFS class];
 	return nil;
-}
+}*/
 
 @end

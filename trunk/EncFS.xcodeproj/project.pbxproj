@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
-		F640F1FB0F4C135E004A61D1 /* MFCore.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F6BA8A890F4B3FDD0052F0EA /* MFCore.framework */; };
 		F652A1F30F49B968000812BA /* ENCFSDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F652A1EE0F49B968000812BA /* ENCFSDelegate.m */; };
 		F652A1F40F49B968000812BA /* EncfsConfigurationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F652A1F00F49B968000812BA /* EncfsConfigurationController.m */; };
 		F652A1F50F49B968000812BA /* encfs_askpass.m in Sources */ = {isa = PBXBuildFile; fileRef = F652A1F10F49B968000812BA /* encfs_askpass.m */; };
@@ -17,12 +16,21 @@
 		F652A1FF0F49B971000812BA /* encfs_icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F652A1FA0F49B971000812BA /* encfs_icon.icns */; };
 		F652A2510F49BB10000812BA /* encfs_askpass in Resources */ = {isa = PBXBuildFile; fileRef = F652A24A0F49BAB6000812BA /* encfs_askpass */; };
 		F652A2540F49BB1D000812BA /* encfs_askpass.m in Sources */ = {isa = PBXBuildFile; fileRef = F652A1F10F49B968000812BA /* encfs_askpass.m */; };
-		F6BA8A8A0F4B3FDD0052F0EA /* MFCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BA8A890F4B3FDD0052F0EA /* MFCore.framework */; };
-		F6BA8AE20F4B40670052F0EA /* MFCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BA8A890F4B3FDD0052F0EA /* MFCore.framework */; };
-		F6BA8BB70F4B47AA0052F0EA /* ENCFSServerFS.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BA8BB60F4B47AA0052F0EA /* ENCFSServerFS.m */; };
 		F6BA8C510F4B58680052F0EA /* EncFSCreationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BA8C500F4B58680052F0EA /* EncFSCreationController.m */; };
 		F6BA8C5A0F4B60450052F0EA /* EncFS.mfplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D5B49B6048680CD000E48DA /* EncFS.mfplugin */; };
+		F6BC915013A62E1E0055556C /* MFCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CCE0B013A38D03001C9C14 /* MFCore.framework */; };
+		F6CCE0B113A38D03001C9C14 /* MFCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CCE0B013A38D03001C9C14 /* MFCore.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6CCE0AE13A38CC7001C9C14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F652A2490F49BAB6000812BA;
+			remoteInfo = encfs_askpass;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		F652A2090F49BA26000812BA /* Copy Frameworks */ = {
@@ -31,14 +39,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F640F1FB0F4C135E004A61D1 /* MFCore.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F6BA8D1E0F4B604B0052F0EA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = ../Distribution/Macfusion/PlugIns;
 			dstSubfolderSpec = 16;
 			files = (
@@ -65,11 +72,14 @@
 		F652A1F90F49B971000812BA /* encfs-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "encfs-Info.plist"; sourceTree = "<group>"; };
 		F652A1FA0F49B971000812BA /* encfs_icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = encfs_icon.icns; sourceTree = "<group>"; };
 		F652A24A0F49BAB6000812BA /* encfs_askpass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = encfs_askpass; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6BA8A890F4B3FDD0052F0EA /* MFCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MFCore.framework; path = ../../../Macfusion/trunk/build/Release/MFCore.framework; sourceTree = SOURCE_ROOT; };
 		F6BA8BB50F4B47AA0052F0EA /* ENCFSServerFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENCFSServerFS.h; sourceTree = "<group>"; };
 		F6BA8BB60F4B47AA0052F0EA /* ENCFSServerFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENCFSServerFS.m; sourceTree = "<group>"; };
 		F6BA8C4F0F4B58680052F0EA /* EncFSCreationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncFSCreationController.h; sourceTree = "<group>"; };
 		F6BA8C500F4B58680052F0EA /* EncFSCreationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncFSCreationController.m; sourceTree = "<group>"; };
+		F6BC916313A62E960055556C /* MFFSDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFFSDelegateProtocol.h; path = ../../../macfusion2/MFFSDelegateProtocol.h; sourceTree = "<group>"; };
+		F6BC916413A62EB70055556C /* MFServerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFServerProtocol.h; path = ../../../macfusion2/MFServerProtocol.h; sourceTree = "<group>"; };
+		F6BC916513A62FD00055556C /* MFServerFSProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFServerFSProtocol.h; path = ../../../macfusion2/MFServerFSProtocol.h; sourceTree = "<group>"; };
+		F6CCE0B013A38D03001C9C14 /* MFCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MFCore.framework; path = ../../../../../Library/Frameworks/MFCore.framework; sourceTree = "<group>"; };
 		F6F4D20A0F4EB3C300CD6AEE /* ENCFSErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENCFSErrors.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,8 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6CCE0B113A38D03001C9C14 /* MFCore.framework in Frameworks */,
 				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
-				F6BA8A8A0F4B3FDD0052F0EA /* MFCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6BA8AE20F4B40670052F0EA /* MFCore.framework in Frameworks */,
+				F6BC915013A62E1E0055556C /* MFCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +119,7 @@
 		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				F6CCE0B013A38D03001C9C14 /* MFCore.framework */,
 				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
 				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
 			);
@@ -146,7 +157,6 @@
 		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F6BA8A890F4B3FDD0052F0EA /* MFCore.framework */,
 				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -174,6 +184,9 @@
 		32C88E010371C26100C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F6BC916513A62FD00055556C /* MFServerFSProtocol.h */,
+				F6BC916413A62EB70055556C /* MFServerProtocol.h */,
+				F6BC916313A62E960055556C /* MFFSDelegateProtocol.h */,
 				32DBCF630370AF2F00C91783 /* EncFS_Prefix.pch */,
 			);
 			name = "Other Sources";
@@ -196,6 +209,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F6CCE0AF13A38CC7001C9C14 /* PBXTargetDependency */,
 			);
 			name = EncFS;
 			productInstallPath = "$(HOME)/Library/Bundles";
@@ -226,7 +240,11 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "EncFS" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 089C166AFE841209C02AAC07 /* EncFS */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -275,7 +293,6 @@
 				F652A1F30F49B968000812BA /* ENCFSDelegate.m in Sources */,
 				F652A1F40F49B968000812BA /* EncfsConfigurationController.m in Sources */,
 				F652A1F50F49B968000812BA /* encfs_askpass.m in Sources */,
-				F6BA8BB70F4B47AA0052F0EA /* ENCFSServerFS.m in Sources */,
 				F6BA8C510F4B58680052F0EA /* EncFSCreationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,16 +307,22 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F6CCE0AF13A38CC7001C9C14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F652A2490F49BAB6000812BA /* encfs_askpass */;
+			targetProxy = F6CCE0AE13A38CC7001C9C14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		1DEB913B08733D840010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../Macfusion/trunk/build/Release\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = $HOME/Library/Frameworks;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_ENABLE_OBJC_GC = supported;
@@ -308,9 +331,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = EncFS_Prefix.pch;
 				INFOPLIST_FILE = "encfs-Info.plist";
-				INSTALL_PATH = "/Library/Application Support/Macfusion/PlugIns";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = EncFS;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = mfplugin;
 			};
 			name = Debug;
@@ -319,19 +343,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../Macfusion/trunk/build/Release\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = $HOME/Library/Frameworks;
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = EncFS_Prefix.pch;
 				INFOPLIST_FILE = "encfs-Info.plist";
-				INSTALL_PATH = "/Library/Application Support/Macfusion/PlugIns";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = EncFS;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = mfplugin;
 			};
 			name = Release;
@@ -344,6 +367,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.5;
@@ -357,6 +381,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PREBINDING = NO;
 				SDKROOT = macosx10.5;
 			};
@@ -365,20 +390,19 @@
 		F652A24C0F49BAB7000812BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../Macfusion/trunk/build/Release\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = $HOME/Library/Frameworks;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INSTALL_PATH = /usr/local/bin;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks";
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -387,26 +411,25 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = encfs_askpass;
+				SDKROOT = "";
 			};
 			name = Debug;
 		};
 		F652A24D0F49BAB7000812BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../Macfusion/trunk/build/Release\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = $HOME/Library/Frameworks;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INSTALL_PATH = /usr/local/bin;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks";
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -415,6 +438,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = encfs_askpass;
+				SDKROOT = "";
 				ZERO_LINK = NO;
 			};
 			name = Release;
