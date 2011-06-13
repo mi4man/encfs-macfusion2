@@ -89,6 +89,7 @@
 	
 	[self.task setArguments:[arguments copy]];
 	[self.task setLaunchPath:@"/usr/local/bin/encfs"];
+	MFLog(@"Using %@ as LaunchPath.", [self.task launchPath]);
 	
 	NSFileHandle *outputHandle = [[self.task standardOutput] fileHandleForReading];
 	
@@ -104,6 +105,7 @@
 	if ( [self setupMountPoint] ) {
 		[self performSelector:@selector(timeOutCheck) withObject:nil afterDelay:5.0f inModes:[NSArray arrayWithObjects:NSModalPanelRunLoopMode, NSDefaultRunLoopMode, nil]];
 		[self.task launch];
+        [[[self.task standardOutput] fileHandleForReading] readInBackgroundAndNotify];
 		[self sendDefaultCommands];
 	} else {
 		MFLog(@"could not setup mountpath");
@@ -114,7 +116,7 @@
 {
 	NSString *pw = [[self representedObject] valueForKeyPath:@"secrets.password"];
 	NSString *commands = [NSString stringWithFormat:@"x\n1\n256\n512\n1\nYes\nYes\nNo\nNo\n%@\n%@", pw,pw];
-	// MFLog(@"sending: %@", commands);
+	//MFLog(@"sending: %@", commands);
 	NSPipe *inputPipe = [self.task standardInput];
 	NSFileHandle *handle = [inputPipe fileHandleForWriting];
 	[handle writeData:[commands dataUsingEncoding:NSUTF8StringEncoding]];
@@ -129,6 +131,20 @@
 	}
 	
 	
+}
+
+- (void)fileHandleDataAvailable:(NSNotification *)notif
+{
+    NSFileHandle *handle = [notif object];
+    
+    NSData *data;
+    if ((data = [handle availableData]) && [data length] > 0) {
+        NSString *string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+        MFLog(@"output: %@", string);
+        [string release];
+        
+        [handle readInBackgroundAndNotify];
+    }
 }
 
 - (void)taskDidTerminate:(NSNotification *)notif

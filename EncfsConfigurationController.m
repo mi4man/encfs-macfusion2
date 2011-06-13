@@ -26,7 +26,7 @@
 	NSString *path;
 	while (!foundKeyFile && (path = [e nextObject])) {
 		// MFLog(@"checking: %@ with lastComponent %@", path, [path lastPathComponent]);
-		if ( [[path lastPathComponent] isEqualToString:@".encfs5"] ) {
+		if ( [[path lastPathComponent] isEqualToString:@".encfs5"] || [[path lastPathComponent] isEqualToString:@".encfs6.xml"] ) {
 			foundKeyFile = YES;
 		}
 	}
