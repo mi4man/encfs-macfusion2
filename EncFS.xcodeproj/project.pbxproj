@@ -16,6 +16,7 @@
 		F652A1FF0F49B971000812BA /* encfs_icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F652A1FA0F49B971000812BA /* encfs_icon.icns */; };
 		F652A2510F49BB10000812BA /* encfs_askpass in Resources */ = {isa = PBXBuildFile; fileRef = F652A24A0F49BAB6000812BA /* encfs_askpass */; };
 		F652A2540F49BB1D000812BA /* encfs_askpass.m in Sources */ = {isa = PBXBuildFile; fileRef = F652A1F10F49B968000812BA /* encfs_askpass.m */; };
+		F69E0E7813B1E5B300CA9231 /* MFCore.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F6CCE0B013A38D03001C9C14 /* MFCore.framework */; };
 		F6BA8C510F4B58680052F0EA /* EncFSCreationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BA8C500F4B58680052F0EA /* EncFSCreationController.m */; };
 		F6BA8C5A0F4B60450052F0EA /* EncFS.mfplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D5B49B6048680CD000E48DA /* EncFS.mfplugin */; };
 		F6BC915013A62E1E0055556C /* MFCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CCE0B013A38D03001C9C14 /* MFCore.framework */; };
@@ -39,6 +40,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				F69E0E7813B1E5B300CA9231 /* MFCore.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,7 +404,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INSTALL_PATH = /usr/local/bin;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks @loader_path/../Frameworks";
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -429,7 +431,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INSTALL_PATH = /usr/local/bin;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks @loader_path/../Frameworks";
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
